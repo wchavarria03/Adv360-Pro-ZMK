@@ -86,9 +86,9 @@
 
         fn {
             bindings = <
-&kp F1  &kp F2    &kp F3      &kp F4    &kp F5    &kp F6     &tog 1                                      &mo 3   &kp F7     &kp F8        &kp F9          &kp F10          &kp F11    &kp F12
-&trans  &kp EXCL  &kp AT      &kp LBRC  &kp RBRC  &kp PIPE   &hyp_1                                      &none   &trans     &trans        &trans          &trans           &kp ASTRK  &trans
-&trans  &kp AMPS  &kp DOLLAR  &kp LPAR  &kp RPAR  &kp GRAVE  &hyp_2  &trans  &trans      &trans  &trans  &none   &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
+&kp F1  &kp F2    &kp F3      &kp F4    &kp F5    &kp F6     &trans                                      &trans  &kp F7     &kp F8        &kp F9          &kp F10          &kp F11    &kp F12
+&trans  &kp EXCL  &kp AT      &kp LBRC  &kp RBRC  &kp PIPE   &trans                                      &trans  &trans     &trans        &trans          &trans           &kp ASTRK  &trans
+&trans  &kp AMPS  &kp DOLLAR  &kp LPAR  &kp RPAR  &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT   &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans     &trans
 &trans  &kp HASH  &kp CARET   &kp LBKT  &kp RBKT  &kp TILDE                  &trans      &trans                  &kp UNDER  &kp MINUS     &kp EQUAL       &kp PERCENT      &trans     &trans
 &trans  &trans    &trans      &trans    &trans               &trans  &trans  &trans      &trans  &trans  &trans             &trans        &trans          &trans           &trans     &trans
             >;
