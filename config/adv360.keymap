@@ -45,6 +45,16 @@
             label = "HYP_4";
         };
 
+        test: test {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHFT &kp W &kp SPACE &kp T &kp Y &kp P &kp E &kp SPACE &kp S &kp O &kp M &kp E &kp T &kp H &kp I &kp N &kp G &kp DOT &kp DOT &kp DOT>;
+
+            label = "TEST";
+        };
+
         #endif
 
         hm: homerow_mods {
@@ -67,7 +77,7 @@
         default_layer {
             bindings = <
 &kp EQUAL      &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 1                                                        &mo 3        &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB        &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                         &none        &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp TAB        &kp Q      &kp W     &kp E     &kp R      &kp T   &test                                                         &none        &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &mt LCTRL ESC  &kp A      &kp S     &kp D     &lt 1 F    &kp G   &none     &kp LALT       &kp LCTRL      &kp LGUI   &kp ESC    &none        &kp H   &kp J   &kp K      &kp L     &kp SEMI  &mt RCTRL SQT
 &kp LSHFT      &kp Z      &kp X     &kp C     &kp V      &kp B                            &none          &kp PG_UP                          &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &mo 2          &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp LGUI  &kp BACKSPACE  &kp END        &kp PG_DN  &kp ENTER  &lt 2 SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
