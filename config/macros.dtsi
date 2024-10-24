@@ -34,38 +34,32 @@
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
   };
-  hyper: hyper {
-    compatible = "zmk,behavior-macro";
-    label = "hyper";
-    #binding-cells = <0>;
-    bindings = <&kp LSHFT &kp LCTRL &kp LALT &kp LGUI>;
-  };
 
   hyp_1: hyp_1 {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&hyper &kp NUMBER_1>;
+    bindings = <&kp LS(LC(LA(LGUI(NUMBER_1))))>;
     label = "HYP_1";
   };
 
   hyp_2: hyp_2 {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&hyper &kp NUMBER_2>;
+    bindings = <&kp LS(LC(LA(LGUI(NUMBER_2))))>;
     label = "HYP_2";
   };
 
   hyp_3: hyp_3 {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&hyper &kp NUMBER_3>;
+    bindings = <&kp LS(LC(LA(LGUI(NUMBER_3))))>;
     label = "HYP_3";
   };
 
   hyp_4: hyp_4 {
     compatible = "zmk,behavior-macro";
     #binding-cells = <0>;
-    bindings = <&hyper &kp NUMBER_4>;
+    bindings = <&kp LS(LC(LA(LGUI(NUMBER_4))))>;
     label = "HYP_4";
   };
 
