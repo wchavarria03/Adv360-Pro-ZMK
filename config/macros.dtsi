@@ -222,7 +222,6 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
-=======
   macro_hyper: macro_hyper{
     compatible = "zmk,behavior-macro";
     label = "macro_hyper";
