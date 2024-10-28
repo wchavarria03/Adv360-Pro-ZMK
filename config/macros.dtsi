@@ -222,3 +222,9 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+  macro_hyp_1: macro_hyp_1{
+    compatible = "zmk,behavior-macro";
+    label = "macro_hyp_1";
+    #binding-cells = <0>;
+    bindings = <&kp LS(LC(LA(LG(N1))))>;
+  };
