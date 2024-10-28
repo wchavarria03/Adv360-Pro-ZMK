@@ -222,6 +222,31 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+=======
+  macro_hyper: macro_hyper{
+    compatible = "zmk,behavior-macro";
+    label = "macro_hyper";
+    #binding-cells = <0>;
+    bindings = <&kp LS(LC(LA(LG)))>;
+  };
+  macro_hyp_4: macro_hyp_4{
+    compatible = "zmk,behavior-macro";
+    label = "macro_hyp_4";
+    #binding-cells = <0>;
+    bindings = <&kp LS(LC(LA(LG(N4))))>;
+  };
+  macro_hyp_3: macro_hyp_3{
+    compatible = "zmk,behavior-macro";
+    label = "macro_hyp_3";
+    #binding-cells = <0>;
+    bindings = <&kp LS(LC(LA(LG(N3))))>;
+  };
+  macro_hyp_2: macro_hyp_2{
+    compatible = "zmk,behavior-macro";
+    label = "macro_hyp_2";
+    #binding-cells = <0>;
+    bindings = <&kp LS(LC(LA(LG(N2))))>;
+  };
   macro_hyp_1: macro_hyp_1{
     compatible = "zmk,behavior-macro";
     label = "macro_hyp_1";
