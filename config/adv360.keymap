@@ -86,14 +86,13 @@
         &none            &none         &none         &none         &none                       &none        &none &none &none           &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
-
     layer_4 {
       bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans     &trans        &trans         &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &kp PG_UP  &kp HOME      &kp PAGE_DOWN  &kp END  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT      &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans          &trans     &trans        &trans         &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans     &trans        &trans         &trans   &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans     &trans        &trans         &trans   &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &kp PG_UP  &kp HOME      &kp PAGE_DOWN  &kp END  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT      &trans   &trans
+        &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans        &trans         &trans   &trans
+        &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans     &trans        &trans         &trans   &trans
             >;
     };
 
